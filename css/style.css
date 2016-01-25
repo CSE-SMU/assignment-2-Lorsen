@@ -1,0 +1,20 @@
+.face{
+ background: #D58E58;
+ border-radius: 100px;
+ width: 200px;
+ height: 250px;
+}
+
+.center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.eye{
+  background: blue;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
