@@ -12,9 +12,27 @@
   transform: translate(-50%, -50%);
 }
 
-.eye{
-  background: blue;
+.eyes{
+  background: white;
   border-radius: 50%;
-  width: 30px;
-  height: 30px;
+  width: 50px;
+  height: 50px;
+}
+
+.eye::first-of-type{    
+    right: -50px;
+}
+
+.eye::last-of-type{  
+    left: 50px;
+}
+
+.hair{
+    top: 200px;
+    background: black;
+    border-radius: 150px;
+    width: 200px;
+    height: 120px;
+    overflow: hidden;
+    
 }
