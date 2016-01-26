@@ -1,3 +1,7 @@
+.html{
+    html{font-size:16px};
+}
+
 .center{
     position: relative;
     margin-left: auto;
@@ -8,16 +12,16 @@
 
 .face{
     background: #D58E58;
-    border-radius: 100px;
-    width: 200px;
-    height: 250px;
+    border-radius: 5em;
+    width: 12em;
+    height: 16em;
 }
 
 .hair{
     position: absolute;
     background: black;
-    border-radius: 80px 80px 0 0;
-    width: 200px;
+    border-radius: 4em 4em 0 0;
+    width: 12em;
     height: 6em;
     overflow: hidden;    
 }
@@ -29,12 +33,12 @@
 	width: 0; 
 	height: 0; 
     width: 0;
-    top: 4em;
+    top: 3em;
     right: 2em;
 	height: 0;
-	border-left: 20px solid transparent;
-	border-right: 20px solid transparent;
-	border-bottom: 40px solid #D58E58;
+	border-left: 2em solid transparent;
+	border-right: 2em solid transparent;
+	border-bottom: 4em solid #D58E58;
 }
 
 .eyes{
@@ -69,8 +73,8 @@
     border-radius: 22em; 
     background: saddlebrown;
     position: relative;
-    left: 7px;
-    top: 6px;
+    left: 15%;
+    top: 15%;
     color: black;
 }
 
@@ -78,18 +82,18 @@
     content:"";
     display: block;
     background: black;
-    border-radius: 60px 0px 3px 4px ;
-    width: 3em;
-    height: 10px;
-    position: relative;
-    bottom: 3em;
+    border-radius: 12em 0em 1em 1em  ;
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    bottom: 110%;
 }
 
 .nose{
     background: #D8BD98;
-    border-radius: 90px;
-    width: 30px;
-    height: 50px;
+    border-radius: 9em;
+    width: 2rem;
+    height: 4rem;
     position: relative;
     top: 11rem;
 }
@@ -97,25 +101,25 @@
 .nose:before{
     content: "";
     display: block;
-    width: ; 
-    height: 2rem; 
+    width: 2em; 
+    height: 50%; 
     border-radius: 22em; 
     background: #D8BD98;
     position: relative;
-    left: 8px;
-    bottom: -20px;   
+    left: 25%;
+    top: 52%;   
 }
 
 .nose:after{
     content: "";
     display: block;
     width: 2em; 
-    height: 2em; 
+    height: 50%; 
     border-radius: 22em; 
     background: #D8BD98;
     position: relative;
-    right: 8px;
-    bottom: 12px;
+    right: 25%;
+    top: 1%;
 }
 
 
@@ -124,10 +128,10 @@
     display: block;
     position: relative;
     top: 3em;
-    left: 40px;
+    left: 20%;
     height: 2rem;
     width: 7rem;
-    border-radius: 0px 0px 120px 120px;
+    border-radius: 0% 0% 6em 6em;
     background:black;    
     overflow:hidden;
 }
@@ -137,7 +141,7 @@
     display: block;
     position: relative;
     top: 2rem;
-    left: 5em;
+    left: 37%;
     height: 1em;
     width: 3em;
     border-radius: 120px 120px 0px 0px;
