@@ -68,10 +68,13 @@
 .eye:before{
     content: "";
     display: block;
-    width: 2em; 
-    height: 2em; 
+    width: 20%; 
+    height: 20%; 
     border-radius: 22em; 
-    background: saddlebrown;
+    background: black;;
+    border-style: solid;
+    border-color:saddlebrown;
+    border-width: 70%;
     position: relative;
     left: 15%;
     top: 15%;
@@ -107,7 +110,7 @@
     background: #D8BD98;
     position: relative;
     left: 25%;
-    top: 52%;   
+    top: 51%;   
 }
 
 .nose:after{
